@@ -26,7 +26,8 @@ export default {
           primaryButtonBackground: '#FF8C00', // Deep Orange
           buttonText: '#FFFFFF', // White
           secondaryButtonBackground: '#FF5722', // Bright Red-Orange
-          hoverBackground: '#FFD700', // Gold
+          hoverBackground: '#344fc7',
+          hoverIcon: '#4f4f4f',
         },
         darkMode: {
           primaryBackground: '#1E1E1E', // Dark Charcoal
@@ -43,7 +44,8 @@ export default {
           primaryButtonBackground: '#FF8C00', // Deep Orange
           buttonText: '#1E1E1E', // Dark Charcoal
           secondaryButtonBackground: '#FF5722', // Bright Red-Orange
-          hoverBackground: '#FFD700', // Gold
+          hoverBackground: '#344fc7',
+          hoverIcon: '#4f4f4f',
         },
       },
     },
