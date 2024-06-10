@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth
+}
+
 /* Scrollbar for Light Mode */
 ::-webkit-scrollbar {
     width: 8px;
