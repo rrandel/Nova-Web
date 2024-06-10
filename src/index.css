@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar for Light Mode */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F9F9F9; /* Off White */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #A5A5A5; /* Medium Gray */
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666666; /* Dim Gray */
+}
+
+/*////////////////////////////////////////*/
+
+/* Scrollbar for Dark Mode */
+.dark ::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+.dark ::-webkit-scrollbar-track {
+    background: #1E1E1E; /* Dark Charcoal */
+}
+ 
+/* Handle */
+.dark ::-webkit-scrollbar-thumb {
+    background: #4D4D4D; /* Slate Gray */
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #A5A5A5; /* Medium Gray */
+}
