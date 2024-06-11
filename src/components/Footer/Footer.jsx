@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="dark:bg-darkMode-primaryBackground">
+    <footer className="bg-darkMode-primaryBackground">
         <div className="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <nav className="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
                 <div className="px-5 py-2">
