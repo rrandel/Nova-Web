@@ -13,10 +13,7 @@ const Footer = () => {
                     <a href="/docs" className="text-base text-gray-400 hover:text-gray-300">Docs</a>
                 </div>
                 <div className="px-5 py-2">
-                    <a href="#Patreon" className="text-base text-gray-400 hover:text-gray-300">Patreon</a>
-                </div>
-                <div className="px-5 py-2">
-                    <a href="#Milanote Board" className="text-base text-gray-400 hover:text-gray-300">Milanote Board</a>
+                    <a href="https://www.patreon.com/Astrixsm" className="text-base text-gray-400 hover:text-gray-300">Patreon</a>
                 </div>
             </nav>
             <div className="flex justify-center mt-8 space-x-6">
