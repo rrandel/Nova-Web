@@ -1,3 +1,5 @@
+import Discord from '../../assets/discordicon.svg'
+
 const Footer = () => {
   return (
     <footer className="bg-darkMode-primaryBackground">
@@ -19,8 +21,8 @@ const Footer = () => {
             <div className="flex justify-center mt-8 space-x-6">
                 <a href="#Discord" target="_blank" className="text-gray-400 hover:text-gray-300">
                     <span class="sr-only">Discord</span>
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 256 180" aria-hidden="true">
-                    <path d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z"></path><path fill="#0f1214" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"></path>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.54 2h-15.08C3.69 2 3 2.68 3 3.52v16.96C3 21.32 3.69 22 4.46 22h10.32l-.48-1.68 1.32 1.22 1.38-1.22 2.4 1.68H19.54C20.31 22 21 21.32 21 20.48V3.52C21 2.68 20.31 2 19.54 2zm-7.79 17.6h-2.94v-2.06h2.94v2.06zm3.68-3.3c0 .96-.77 1.72-1.71 1.72H8.59c-.94 0-1.71-.76-1.71-1.72V8.48c0-.96.77-1.72 1.71-1.72h5.13c.94 0 1.71.76 1.71 1.72v7.82zM12 8.94a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm3.25-2.25c0 .62-.51 1.12-1.13 1.12h-5.24a1.13 1.13 0 010-2.25h5.24c.62 0 1.13.51 1.13 1.13z"/>
                     </svg>
                 </a>
                 <a href="#Instagram" target="_blank" className="text-gray-400 hover:text-gray-300">
