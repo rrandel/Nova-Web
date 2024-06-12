@@ -176,11 +176,11 @@ const Home = () => {
       </div>
 
 
-      <div className="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
-        <div className="absolute inset-0">
-          <div className="h-1/3 sm:h-2/3"></div>
+      <div className="relative px-1 pt-8 pb-4 lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
+        <div className="absolute inset-0 bg-gradient-to-b dark:from-darkMode-secondaryBackground dark:to-darkMode-surfaceBackground h-2/3 z-0">
+          <div className="absolute inset-0 h-2/3 top-1/3"></div>
         </div>
-        <div className="relative px-2 mx-auto max-w-7x1">
+        <div className="relative px-2 mx-auto max-w-7x1 z-10">
           <div className="text-center">
             <h2 className="text-3xl font-black tracking-tight text-primary-500 dark:text-darkMode-mainText text-lightMode-mainText sm:text-4xl"> Latest Articles </h2>
             <p className="max-w-2xl mx-auto mt-3 text-xl text-lightMode-secondaryText dark:text-darkMode-secondaryText sm:mt-4"> Development articles and videos from the team. </p>
@@ -190,7 +190,7 @@ const Home = () => {
               <div className="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
                 <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-darkMode-secondaryBackground">
                   <a href="/posts/2024/plans-for-2025/">
-                    <img src="" className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
+                    <img src={Astronaut} className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
                   </a>
                   <div className="p-6">
                     <div className="flex-1">
@@ -219,7 +219,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-darkMode-secondaryBackground">
                   <a href="/posts/2024/integration/">
-                    <img src="" className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
+                    <img src={Astronaut} className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
                   </a>
                   <div className="p-6">
                     <div className="flex-1">
@@ -248,7 +248,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-darkMode-secondaryBackground">
                   <a href="/posts/2024/Me/">
-                    <img src="" className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
+                    <img src={Astronaut} className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
                   </a>
                   <div className="p-6">
                     <div className="flex-1">
@@ -282,9 +282,9 @@ const Home = () => {
       </div>
 
 
-      <div className="relative pb-16 mt-6 bg-gray-200 dark:bg-darkMode-surfaceBackground">
-        <div className="max-w-md mx-auto px-7 sm:max-w-3x1 lg:max-w-7x1">
-          <div className="relative px-6 py-10 overflow-hidden shadow-xl rounded-2xl sm:px-12 sm:py-20">
+      <div className="relative pb-16 mt-6 bg-gray-200 dark:bg-darkMode-secondaryBackground">
+        <div className="max-w-md mx-auto px-7 sm:max-w-3xl lg:max-w-7xl">
+          <div className="relative px-6 py-10 overflow-hidden shadow-xl bg-darkMode-primaryAccent rounded-2xl sm:px-12 sm:py-20">
             <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
               <svg class="absolute inset-0 w-full h-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1463 360" loading="lazy">
                 <rect width="1463" height="360" fill="#FF7F00" />
