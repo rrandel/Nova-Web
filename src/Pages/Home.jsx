@@ -187,7 +187,7 @@ const Home = () => {
           </div>
           <div className="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
             <div className="px-4 text-gray-900 not-prose dark:text-zinc-200">
-              <div className="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
+              <div className="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-2">
                 <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-darkMode-secondaryBackground">
                   <a href="/posts/2024/plans-for-2025/">
                     <img src={Astronaut} className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
@@ -241,35 +241,6 @@ const Home = () => {
                           <time datetime="2024-06-10">06/10/2024</time>
                           <span aria-hidden="true">.</span>
                           <span>4 min read</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-darkMode-secondaryBackground">
-                  <a href="/posts/2024/Me/">
-                    <img src={Astronaut} className="object-fill overflow-hidden rounded-t-lg" width="100%" height loading="lazy" alt=""></img>
-                  </a>
-                  <div className="p-6">
-                    <div className="flex-1">
-                      <a href="/posts/2024/Me/" className="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500"> Meet Me </a>
-                      <p className="mt-3 text-base text-gray-900 dark:text-gray-300"> Meet Me and see what I work on. </p>
-                    </div>
-                    <div className="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-                      <span className="pr-2 font-black"> Tags: </span>
-                      <a href="/tags/meta" className="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900"> Meta </a>
-                    </div>
-                    <div className="flex items-center mt-6">
-                      <div className="flex-shrink-0">
-                        <span className="sr-only">Robert Randel</span>
-                        <img className="w-10 h-10 rounded-full" src={Me} alt></img>
-                      </div>
-                      <div className="pt-1 ml-3">
-                        <p className="text-sm font-medium text-gray-900 dark:text-white"> Robert Randel </p>
-                        <div className="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                          <time datetime="2024-06-10">06/10/2024</time>
-                          <span aria-hidden="true">.</span>
-                          <span>1 min read</span>
                         </div>
                       </div>
                     </div>
