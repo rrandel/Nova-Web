@@ -59,7 +59,7 @@ const Home = () => {
                   </p>
                   <p className="text-lg text-gray-900 dark:text-white"> Some features: </p>
                   <ul className="pl-8 space-y-3 list-disc dark:marker:text-gray-100">
-                    <li> Written in C++ with support for Windows and Linux</li>
+                    <li> Written in C++ with support for Windows</li>
                     <li> C++ for scripting (like Ureal)</li>
                     <li> Vulkan and OpenGL for rendering, with an API-agnostic renderer</li>
                     <li> Multi-threaded runtime (main thread + render thread)</li>
@@ -92,7 +92,7 @@ const Home = () => {
                 </p>
                 <p className="mt-4 text-lg text-gray-900 dark:text-white">
                   As Nova matures and grows, we would like to make its technology more freely available. We're already doing this by open-sourcing certain systems so they can be used by the community for other projects, such as 
-                  <a href="https://github.com/rrandel/Nova-Web">Web Dev</a>
+                  <a href="https://github.com/rrandel/Nova-Web"> QuantumScript</a>
                   , Nova's C++ scripting engine. 
                 </p>
                 <p className="mt-4 text-lg text-gray-900 dark:text-white">

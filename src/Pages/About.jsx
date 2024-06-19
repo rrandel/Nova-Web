@@ -60,12 +60,12 @@ const About = () => {
         <p style={paragraphStyle}>
           Nova is an interactive 3D application development platform - otherwise known as a
           <em> game engine</em>
-          . Nova was born in late 2018, and was started by Yan Chernikov.
+          . Nova was born in early 2023, and was started by .
           Now it is officially developed by 
-          <em>Studio Cherno</em>
-          , a company started by Yan in 2021.
-          Studio Cherno staff as well as community volunteers work on Nova. 
-          <a href="/posts/meet-the-team/">Learn more about the team here</a>
+          <em>a solo programmer Robert Randel</em>
+          , started by Robert in 2023.
+           community volunteers work on Nova.
+          <a href="/posts/meet-the-team/"> Learn more about the team here</a>
           .
         </p>
         <p style={paragraphStyle}>
